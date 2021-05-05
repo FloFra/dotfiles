@@ -48,7 +48,9 @@ This function should only modify configuration layer settings."
             shell-default-shell 'eshell
             shell-default-height 25
             shell-default-position 'bottom)
-     (spell-checking :variables enable-flyspell-auto-completion t)
+     (spell-checking :variables
+                     enable-flyspell-auto-completion t
+                     spell-checking-enable-auto-dictionary t))
      syntax-checking
      ;;semantic
      (ibuffer :variables ibuffer-group-buffers-by 'projects)
